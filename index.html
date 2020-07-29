@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <title>Bootblocks | website structure block</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/sidebar.css" />
+  </head>
+  <body>
+    <!--navigation bar-->
+    <div class="nav bg-primary text-white py-3">
+        <span style="font-size: 20px; cursor: pointer; margin-left: 50;" onclick="openNav()"
+        >&#9776; open</span>
+    </div>
+    <!-- side navigation -->
+
+    <div id="mySidenav" class="sidenav text-center overflow-scroll">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="blocks/banner.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Banner
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+      <a href="blocks/blog.html">
+        <img src="http://dummyimage.com/200x100" alt="" />Blog
+      </a>
+    </div>
+    <!--banner-->
+    <div class="container mt-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase py-3">Bootblock</h2>
+          <p>
+            Bootblock is a collection of different layout of each sections which are used in websites. Bootblock boost designing and developing part of your website. The layout which is provided are 100% mobile-responsive layouts.
+          </p>
+          <h4 class="py-3">CDN to use <span class="text-uppercase">bootblock</span> code</h4>
+          <div class="border rounded text-secondary py-3 px-3 bg-light">
+            <figure>
+              <pre class="text-secondary">
+<code class="language-html" data-lang="html"><span class="c">&lt;!-- CSS only --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
+                        
+<span class="c">&lt;!-- JS, Popper.js, and jQuery --&gt;</span>
+    
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.5.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+                    </code>
+                </pre>
+            </figure>
+          </div>
+          <h4 class="py-3">How to use</h4>
+          <p>Step 1 : Choose the structure/layout of your choice.</p>
+          <p>Step 2 : Below the layout, there are two buttons preview and copy to clipboard. Use preview button to view the code and copy to clipboard to copy the code.</p>
+          <p>Step 3 : Semple, paste the code to your file and get output.</p>
+        </div>
+        <div class="col-12 col-md-8 mx-auto my-3">
+          <img
+            src="http://dummyimage.com/600x400"
+            alt="banner-video"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <!--bootblock section-->
+    <div class="container mt-5">
+      <div class="d-md-flex mb-4">
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/banner.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Banner</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/blog.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Blog</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/contact.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Contact</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/content.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Content</h4>
+          </a>
+        </div>
+      </div>
+      <div class="d-md-flex mb-4">
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/cta.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">CTA</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/ecommerce.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Ecommerce</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/feature.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Feature</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/footer.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Footer</h4>
+          </a>
+        </div>
+      </div>
+      <div class="d-md-flex mb-4">
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/gallery.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Gallery</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/pricing.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Pricing</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/statistics.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Statistics</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/team.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Taem</h4>
+          </a>
+        </div>
+      </div>
+      <div class="d-md-flex mb-4">
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="blocks/testimonial.html">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Testimonial</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Banner</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Banner</h4>
+          </a>
+        </div>
+        <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
+          <a href="">
+            <img src="assets/images/20200727_110746.png" width="100%" alt="" />
+            <h4 class="py-2">Banner</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid bg-primary mt-5 py-3">footer</div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/sidebar.js"></script>
+  </body>
+</html>
