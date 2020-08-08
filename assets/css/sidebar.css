@@ -66,4 +66,50 @@
 }
 
 /*Banner*/
+.head{
+  margin: auto;
+}
 
+/* design */
+.design a{
+  text-decoration: none;
+}
+/* design */
+
+/* footer */
+footer{
+  display: flex;
+  background-color: rgb(46, 46, 46);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.git{
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+}
+
+
+
+
+/* footer */
+
+
+
+
+/* <div class="row">
+   
+   
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-6 col-6">
+            
+          </div>
+          <div class="col-md-6 col-6">
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> */
