@@ -16,20 +16,41 @@
   </head>
  
   <body>
-    <!--navigation bar-->
-    <div class="nav bg-primary text-white py-3">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-    </div>
-    <!-- side navigation -->
-    
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
-      
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+        <div class="container">
+        <a class="navbar-brand" href="#">BOOTBLOCK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contribution</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Block
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Banner</a>
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Contact</a>
+                <a class="dropdown-item" href="#">Content</a>
+                <a class="dropdown-item" href="#">CTA</a>
+                <a class="dropdown-item" href="#">Ecommerce</a>
+                <a class="dropdown-item" href="#">Feature</a>
+                <a class="dropdown-item" href="#">Footer</a>
+                <a class="dropdown-item" href="#">Gallery</a>
+                <a class="dropdown-item" href="#">Pricing</a>
+                <a class="dropdown-item" href="#">Statistics</a>
+                <a class="dropdown-item" href="#">Team</a>
+                <a class="dropdown-item" href="#">Testimonial</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
     <!--main section-->
      <!--gallery a-->
      <h1 class="text-center text-uppercase text-primary py-5">gallery A</h2>
@@ -152,10 +173,8 @@
     
 
     <!--footer-->
-    <footer class="text-white">
-        <div class="container-fluid bg-primary mt-5 py-3">
-            <h4>footer</h4>
-        </div>
+    <footer class="text-white bg-dark text-center py-4">
+        Developed by Bilal Bhojani, Sunny prajapati and Hussain Nagavadriya
     </footer>
     <!-- JS, Popper.js, and jQuery -->
     <script

@@ -18,55 +18,48 @@
 </head>
 
 <body>
-  <!--navigation bar-->
-  <div class="nav bg-primary text-center px-3 px-md-4 text-white py-3">
-    <span style="font-size: 20px; cursor: pointer; margin-left: 50;" onclick="openNav()">&#9776; open</span>
-    <h2 class="head text-center ">BOOOT BLOCK</h>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+    <div class="container">
+    <a class="navbar-brand" href="#">BOOTBLOCK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav float-right">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contribution</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Block
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Banner</a>
+            <a class="dropdown-item" href="#">Blog</a>
+            <a class="dropdown-item" href="#">Contact</a>
+            <a class="dropdown-item" href="#">Content</a>
+            <a class="dropdown-item" href="#">CTA</a>
+            <a class="dropdown-item" href="#">Ecommerce</a>
+            <a class="dropdown-item" href="#">Feature</a>
+            <a class="dropdown-item" href="#">Footer</a>
+            <a class="dropdown-item" href="#">Gallery</a>
+            <a class="dropdown-item" href="#">Pricing</a>
+            <a class="dropdown-item" href="#">Statistics</a>
+            <a class="dropdown-item" href="#">Team</a>
+            <a class="dropdown-item" href="#">Testimonial</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
-  <!-- side navigation -->
-
-  <div id="mySidenav" class="sidenav text-center overflow-scroll">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="blocks/banner.html">
-      <img src="./assets/images/bannernav.png" alt="" />Banner
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-    <a href="blocks/blog.html">
-      <img src="http://dummyimage.com/200x100" alt="" />Blog
-    </a>
-  </div>
+  </nav>
+  
   <!--banner-->
   <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
       <div class="col-12">
-        <h4>What is BootBlock?</h4>
-        <p class="mt-4">
+        <h1 class="text-center py-1 display-4 text-uppercase text-primary">What is BootBlock?</h1>
+        <p class="mt-4 lead">
           Bootblock is a collection of different layout of each sections which are used in websites. Bootblock boost
           designing and developing part of your website. The layout which is provided are 100% mobile-responsive
           layouts.
@@ -89,20 +82,21 @@
                 </pre>
           </figure>
         </div>
-        <h4 class="py-3">How to use</h4>
+        <h1 class="text-center py-4 display-4 text-uppercase text-primary">How to use</h1>
         <p>Step 1 : Choose the structure/layout of your choice.</p>
         <p>Step 2 : Below the layout, there are two buttons preview and copy to clipboard. Use preview button to view
           the code and copy to clipboard to copy the code.</p>
         <p>Step 3 : Semple, paste the code to your file and get output.</p>
       </div>
-      <div class="col-12 col-md-8 mx-auto my-3">
-        <img src="http://dummyimage.com/600x400" alt="banner-video" width="100%" />
+      <div class="col-12 mx-auto my-3 py-4">
+        <img src="http://dummyimage.com/1200x500" alt="banner-video" width="100%" />
       </div>
     </div>
   </div>
   <!--bootblock section-->
-  <div class="container mt-5">
-    <div class="d-md-flex mb-4 design">
+  <div class="container">
+    <h1 class="text-center py-4 display-4 text-uppercase text-primary">Layout and Design</h1>
+    <div class="d-md-flex mb-5 design">
       <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
         <a href="blocks/banner.html">
           <img src="assets/images/bannermain-01.png" style="width:100%" alt="" />
@@ -128,7 +122,7 @@
         </a>
       </div>
     </div>
-    <div class="d-md-flex mb-4 design">
+    <div class="d-md-flex mb-5 design">
       <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
         <a href="blocks/cta.html">
           <img src="assets/images/ctamain.png" width="100%" alt="" />
@@ -154,7 +148,7 @@
         </a>
       </div>
     </div>
-    <div class="d-md-flex mb-4 design">
+    <div class="d-md-flex mb-5 design">
       <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
         <a href="blocks/gallery.html">
           <img src="assets/images/gallerymain.png" width="100%" alt="" />
@@ -176,11 +170,11 @@
       <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
         <a href="blocks/team.html">
           <img src="assets/images/teammain.png" width="100%" alt="" />
-          <h4 class="py-2">Taem</h4>
+          <h4 class="py-2">Team</h4>
         </a>
       </div>
     </div>
-    <div class="d-md-flex mb-4 design">
+    <div class="d-md-flex mb-5 design">
       <div class="flex-fill mx-2 border text-center mb-3 mb-md-0">
         <a href="blocks/testimonial.html">
           <img src="assets/images/testimonialsmain.png" width="100%" alt="" />
@@ -207,17 +201,8 @@
       </div>
     </div>
   </div>
-  <footer class="align-items-center">
-    <div>
-      <span>&copy;2020 Bootblocks All Rights Reserved </span>
-    </div>
-    <div>
-      <p>Affiliated by The Young Developer</p>
-    </div>
-    <div class="git">
-      <a href="#"><i class="fab fa-github"></i></a>
-      spa
-    </div>
+  <footer class="text-white bg-dark text-center py-4">
+      Developed by Bilal Bhojani, Sunny prajapati and Hussain Nagavadriya
   </footer>
 
   <!-- JS, Popper.js, and jQuery -->
