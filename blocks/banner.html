@@ -17,41 +17,46 @@
   </head>
  
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white">
-        <div class="container">
-        <a class="navbar-brand" href="#">BOOTBLOCK</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <div class="bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand text-white" href="#">BOOTBLOCK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNavDropdown">
-          <ul class="navbar-nav float-right">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Contribution</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Block
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Banner</a>
-                <a class="dropdown-item" href="#">Blog</a>
-                <a class="dropdown-item" href="#">Contact</a>
-                <a class="dropdown-item" href="#">Content</a>
-                <a class="dropdown-item" href="#">CTA</a>
-                <a class="dropdown-item" href="#">Ecommerce</a>
-                <a class="dropdown-item" href="#">Feature</a>
-                <a class="dropdown-item" href="#">Footer</a>
-                <a class="dropdown-item" href="#">Gallery</a>
-                <a class="dropdown-item" href="#">Pricing</a>
-                <a class="dropdown-item" href="#">Statistics</a>
-                <a class="dropdown-item" href="#">Team</a>
-                <a class="dropdown-item" href="#">Testimonial</a>
-              </div>
-            </li>
-          </ul>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-white">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Contribution</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Blocks
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Banner</a>
+                        <a class="dropdown-item" href="#">Blog</a>
+                        <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="#">Content</a>
+                        <a class="dropdown-item" href="#">CTA</a>
+                        <a class="dropdown-item" href="#">Ecommerce</a>
+                        <a class="dropdown-item" href="#">Feature</a>
+                        <a class="dropdown-item" href="#">Footer</a>
+                        <a class="dropdown-item" href="#">Gallery</a>
+                        <a class="dropdown-item" href="#">Pricing</a>
+                        <a class="dropdown-item" href="#">Statistics</a>
+                        <a class="dropdown-item" href="#">Team</a>
+                        <a class="dropdown-item" href="#">Testimonial</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </div>
-      </nav>
+        </nav>
+    </div>
+
+   
     <!--main section-->
      <!--banner a-->
      <h1 class="text-center text-uppercase text-primary py-5">banner A</h2>
@@ -71,9 +76,10 @@
             </div>
         </section>
         <div class="d-flex justify-content-center my-5">
-            <button class="btn btn-outline-primary" id="pre1">Preview code</button>
-            <button class="btn btn-outline-primary ml-2" id="ctc1">copy to clipboard</button>
+            <button class="btn btn-outline-primary" id="pre1" data-toggle="tooltip" title="Click to preview code" data-placement="left">Preview code</button>
+            <button class="btn btn-outline-primary ml-2 " id="ctc1" data-toggle="popover"  data-placement="right" title="copied to clipboard" data-content="Ready to execute ">copy to clipboard</button>
         </div>
+        
     <hr>
 
     <!--banner b-->
@@ -90,14 +96,14 @@
                     <h3 class="mb-3">We Are The Young Developers Team.</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cum ipsum sapiente explicabo nulla unde, officia dolorem quo odio ut error, dignissimos harum, eius ad?</p>
                     <button class="btn btn-primary mr-3">Button</button>
-                    <button class="btn btn-light">Button</button>
+                    <button class="btn btn-light" >Button</button>
                 </div>
             </div>
         </div>
     </section>
     <div class="d-flex justify-content-center my-5">
-        <button class="btn btn-primary" id="pre2">Preview code</button>
-        <button class="btn btn-primary ml-2" id="ctc2">copy to clipboard</button>
+        <button class="btn btn-outline-primary" id="pre2" data-toggle="tooltip" title="Click to preview code" data-placement="left">Preview code</button>
+        <button class="btn btn-outline-primary ml-2" id="ctc2" data-toggle="popover"  data-placement="right" title="copied to clipboard" data-content="Ready to execute ">copy to clipboard</button>
     </div>
     <hr>
 
@@ -119,8 +125,8 @@
         </div>
     </section>
     <div class="d-flex justify-content-center my-5">
-        <button class="btn btn-primary" id="pre3">Preview code</button>
-        <button class="btn btn-primary ml-2" id="ctc3">copy to clipboard</button>
+        <button class="btn btn-outline-primary" data-toggle="tooltip" title="Click to preview code" data-placement="left" id="pre3">Preview code</button>
+        <button class="btn btn-outline-primary ml-2" id="ctc3" data-toggle="popover"  data-placement="right" title="copied to clipboard" data-content="Ready to execute ">copy to clipboard</button>
     </div>
     <hr>
     <!--banner d-->
@@ -145,8 +151,8 @@
         </div>
     </section>
     <div class="d-flex justify-content-center my-5">
-        <button class="btn btn-primary" id="pre4">Preview code</button>
-        <button class="btn btn-primary ml-2" id="ctc4">copy to clipboard</button>
+        <button class="btn btn-outline-primary" data-toggle="tooltip" title="Click to preview code" data-placement="left" id="pre4">Preview code</button>
+        <button class="btn btn-outline-primary ml-2" id="ctc4" data-toggle="popover"  data-placement="right" title="copied to clipboard" data-content="Ready to execute ">copy to clipboard</button>
     </div>
     <hr>
     <!--banner e-->
@@ -171,8 +177,8 @@
         </div>
     </section>
     <div class="d-flex justify-content-center my-5">
-        <button class="btn btn-primary" id="pre5">Preview code</button>
-        <button class="btn btn-primary ml-2" id="ctc5">copy to clipboard</button>
+        <button class="btn btn-outline-primary" data-toggle="tooltip" title="Click to preview code" data-placement="left" id="pre5">Preview code</button>
+        <button class="btn btn-outline-primary ml-2" id="ctc5" data-toggle="popover"  data-placement="right" title="copied to clipboard" data-content="Ready to execute ">copy to clipboard</button>
     </div>
     <hr>
     <!--banner f-->
@@ -199,8 +205,8 @@
         </div>
     </section>
     <div class="d-flex justify-content-center my-5">
-        <button class="btn btn-primary" id="pre6">Preview code</button>
-        <button class="btn btn-primary ml-2" id="ctc6">copy to clipboard</button>
+        <button class="btn btn-outline-primary" data-toggle="tooltip" title="Click to preview code" data-placement="left" id="pre6">Preview code</button>
+        <button class="btn btn-outline-primary ml-2" id="ctc6" data-toggle="popover"  data-placement="right" title="copied to clipboard" data-content="Ready to execute ">copy to clipboard</button>
     </div>
     <!--footer-->
     <footer class="text-white bg-dark text-center py-4">
@@ -224,5 +230,15 @@
     ></script>
     <script src="../assets/js/sidebar.js"></script>
     <script src="../assets/js/banner.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
   </body>
 </html>

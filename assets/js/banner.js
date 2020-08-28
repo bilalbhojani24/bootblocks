@@ -4,6 +4,7 @@ const bannerSec_c = document.getElementById("bannerc").innerHTML;
 const bannerSec_d = document.getElementById("bannerd").innerHTML;
 const bannerSec_e = document.getElementById("bannere").innerHTML;
 const bannerSec_f = document.getElementById("bannerf").innerHTML;
+const copy = document.getElementById("copy");
 
 function preview(code_text, blog_name, but_name){
     var code_div = document.createElement('div');
@@ -11,7 +12,7 @@ function preview(code_text, blog_name, but_name){
     code_div.innerText = code_text;
     document.getElementById(blog_name).append(code_div);
     document.getElementById(but_name).disabled = true;
-    code_div.setAttribute("id", "code_div")
+    code_div.setAttribute("id", "code_div");
   }
   function copyToClipboard(code_text,but_name){
     const el = document.createElement('textarea');
@@ -23,8 +24,8 @@ function preview(code_text, blog_name, but_name){
     document.getElementById(but_name).disabled = false;
     document.getElementById("code_div").remove();
   }
-
   
+ 
   document.getElementById("pre1").addEventListener('click', function(){
       console.log("clicked");
       preview(bannerSec_a, "bannera" , "pre1");
