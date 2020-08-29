@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+ font-family: 'Poppins', sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+h1{
+  font-size: 3rem!important;
+}
+.navbar-brand{
+  font-weight: 700!important;
+  font-size: 2rem;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -95,3 +113,38 @@
     color: black;
     text-align: center;
   }
+ /* floating button for scroll */
+ #myBtn{
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: white;
+  background: #007BFF;
+  padding: 10px;
+  border-radius: 10px;
+}
+#myBtn:hover{
+  background: #606060;
+
+}
+
+/* floating button for scroll */
+
+/* footer section */
+.credit{
+  font-size: 1rem!important;
+}
+footer span{
+  font-size: 0.7rem;
+}
+/* footer section */
+
+/* steps */
+.steps p{
+  font-weight: bold;
+  font-size: 1.1rem!important;
+}
+/* steps */
